@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Galeria - Natural Diet</title>
+  <link rel="icon" href="../assets/img/logo.png">
+  <!--bootstrap local-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  
+</head>
+<body>  
+  <!--nav-->
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom_navbar">
+          <a href="../index.html" class="nav-bar-brand"><img class="custom_logo" src="../assets/img/logo.png" alt="Logo dietetica"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-lg-end justify-content-xl-end" id="navbarNav">
+            <ul class="navbar-nav custom_menu">
+              <li class="nav-item active"><a href="../index.html" class="nav-link">INICIO</a></li>
+              <li class="nav-item active"><a href="galeria.html" class="nav-link">GALERIA</a></li>
+              </li>		
+            </ul>
+          </div>	
+        </nav>
+      </div>	
+    </div>
+
+    <!--titulo-->
+    <div class="inicio_header">
+      <div class="fondo" id="fondo">
+        <h1 class="titulo">Natural Diet</h1>
+      </div>
+    </div>
+    <!--fin titulo-->
+  </header>
+  <!--nav end-->
+
+  <!--usuario-->
+  <div class="container">
+    <form>
+      <label for="nombre">Usuario:</label>
+      <h2 id="userName"></h2>
+      <input type="text" id="name"/>
+      <label for="password" id="passwordLabel">Password:</label>
+      <input type="text" id="password"/>
+      <input class="btn btn-light" type="button" id="saveData" value="Enviar"/>
+      <p id="datos"></p>
+    </form>
+  </div>
+  <!--fin usuario-->
+
+  <!--inicio galeria-->
+  <div class="img_contenido">
+      <div class="imagen gale_1">
+        <img class="imagen_hover img-thumbnail" src="../assets/img/galeria1.jpg" alt="yogurt griego">
+        <div class="ocultando">
+          <h4>Yogurt Griego</h4>
+        </div>
+      </div>
+
+      <div class="imagen gale_2">
+        <img class="imagen_hover img-thumbnail" src="../assets/img/galeria2.jpg" alt="Ciruelas">
+        <div class="ocultando">
+          <h4>Ciruelas</h4>
+        </div>
+      </div>
+
+      <div class="imagen gale_3">
+        <img class="imagen_hover img-thumbnail" src="../assets/img/galeria3.jpg" alt="Cereal con frutos rojos">
+        <div class="ocultando">
+          <h4>Cereal con frutos rojos</h4>
+        </div>
+      </div>
+
+      <div class="imagen gale_4">
+        <img class="imagen_hover img-thumbnail" src="../assets/img/galeria4.jpg" alt="frutos secos">
+        <div class="ocultando">
+          <h4>Mix de frutos secos</h4>
+        </div>
+      </div>
+
+      <div class="imagen gale_5">
+        <img class="imagen_hover img-thumbnail" src="../assets/img/galeria5.jpg" alt="Natural Diet">
+        <div class="ocultando">
+          <h4>Natural Diet</h4>
+        </div>
+      </div>
+
+      <div class="imagen gale_6">
+        <img class="imagen_hover img-thumbnail" src="../assets/img/galeria6.jpg" alt="frutos secos sin maní">
+        <div class="ocultando">
+          <h4>Mix secos sin maní</h4>
+        </div>
+      </div>
+
+      <div class="imagen gale_7">
+        <img class="imagen_hover img-thumbnail" src="../assets/img/galeria7.jpg" alt="Budín vegano">
+        <div class="ocultando">
+          <h4>Budín vegano</h4>
+        </div>
+      </div>
+
+      <div class="imagen gale_8">
+        <img class="imagen_hover img-thumbnail" src="../assets/img/galeria8.jpg" alt="Legumbres">
+        <div class="ocultando">
+          <h4>Legumbres</h4>
+        </div>
+      </div>
+
+      <div class="imagen gale_9">
+        <img class="imagen_hover img-thumbnail" src="../assets/img/galeria9.jpg" alt="granos">
+        <div class="ocultando">
+          <h4>Nuestros granos</h4>
+        </div>
+      </div>
+  </div>
+
+  <!--abrir y cerar imagen-->
+  <section class="popUp" id="img_1">
+    <div class="popUp_img cubrir">
+      <a class="cerrar text-decoration-none">X</a>
+      <img src="../assets/img/galeria1.jpg"> 
+    </div>
+  </section>
+
+  <section class="popUp" id="img_2">
+    <div class="popUp_img cubrir">
+      <a class="cerrar text-decoration-none">X</a>
+      <img src="../assets/img/galeria2.jpg"> 
+    </div>
+  </section>
+
+  <section class="popUp" id="img_3">
+    <div class="popUp_img cubrir">
+      <a class="cerrar text-decoration-none">X</a>
+      <img src="../assets/img/galeria3.jpg"> 
+    </div>
+  </section>
+
+  <section class="popUp" id="img_4">
+    <div class="popUp_img cubrir">
+      <a class="cerrar text-decoration-none">X</a>
+      <img src="../assets/img/galeria4.jpg"> 
+    </div>
+  </section>
+
+  <section class="popUp" id="img_5">
+    <div class="popUp_img cubrir">
+      <a class="cerrar text-decoration-none">X</a>
+      <img src="../assets/img/galeria5.jpg"> 
+    </div>
+  </section>
+
+  <section class="popUp" id="img_6">
+    <div class="popUp_img cubrir">
+      <a class="cerrar text-decoration-none">X</a>
+      <img src="../assets/img/galeria6.jpg"> 
+    </div>
+  </section>
+
+  <section class="popUp" id="img_7">
+    <div class="popUp_img cubrir">
+      <a class="cerrar text-decoration-none">X</a>
+      <img src="../assets/img/galeria7.jpg"> 
+    </div>
+  </section>
+
+  <section class="popUp" id="img_8">
+    <div class="popUp_img cubrir">
+      <a class="cerrar text-decoration-none">X</a>
+      <img src="../assets/img/galeria8.jpg"> 
+    </div>
+  </section>
+
+  <section class="popUp" id="img_9">
+    <div class="popUp_img cubrir">
+      <a class="cerrar text-decoration-none">X</a>
+      <img src="../assets/img/galeria9.jpg"> 
+    </div>
+  </section>
+  <!--fin galeria-->
+  
+  <!--inicio footer-->
+  <footer>
+    <div class="container custom_footer">
+      <div class="row col"></div>
+        <h3>Natural Diet</h3>
+        <p>¡Síguenos en nuestras redes!</p>
+        <div class="row glyphicon glyphicon-ok">
+          <ul class="list-inline custom_social"></ul>
+            <li class="list-inline-item"><i class="fa fa-facebook"></i></li>
+            <li class="list-inline-item"><i class="fa fa-twitter"></i></li>
+            <li class="list-inline-item"><i class="fa fa-instagram"></i></li>
+            <li class="list-inline-item"><i class="fa fa-youtube"></i></li>
+        </div>
+      </div>
+    </div>
+    <div class="custom_bottom">
+      <p>copyrigth &copy;2021 NaruralDiet</p>
+    </div>
+  </footer>
+  
+  <!--final footer-->
+
+<!--enlaces-->
+  <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/23d54f4b8b.js" crossorigin="anonymous"></script>
+  <script src="../assets/js/user.js"></script>
+  <script src="../assets/js/animation.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,277 @@
+body {
+	margin: 0em;
+	padding: 0em;
+	box-sizing: border-box;
+	font-family: 'Lexend', sans-serif;
+    background-color: #55E6C1;
+}
+/* inicio nav*/
+.custom_logo {
+    width: 4em;
+    height: 3.5em;
+}
+
+.custom_navbar{
+	width: 100%;
+	padding: 0.6em 1.25em;
+	background-color: #fdcb6e;
+	position: absolute;
+	top: 1.20em;
+	left: 0;
+	z-index: 999;
+	box-shadow: 0px 15px 20px 0 rgb(0 0 0 / 35%);;
+	margin-top: -1.2em;
+}
+
+.scroll{
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin-top: 0em;
+	width: 100%;
+	background-color: rgba(248, 213, 98, 0.7);
+	padding: 0.31em 1.25em;
+	transition: 0.5s;
+	animation: scroll 0.6s 1;
+}
+
+.custom_menu li a:hover {
+    background-color: #4b4b4b;
+    border-radius: 0.2em;
+    transition: 0.6s;
+}
+/*fin nav*/
+
+/*inicio header*/
+.inicio_header {
+	width: 100%;
+	height: 42em;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url(../img/fondo.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-bottom: 2em;
+	font-weight: bold;
+}
+
+.inicio_header .fondo {
+	width: 0%;
+	height: 100%;
+	max-width: 100%;
+	background-image: url(../img/hojasfondo3.png);
+}
+
+.inicio_header .titulo {
+	width: calc(100vw - 1.25em);
+	height: 6.5em;
+    margin-left: 0.5em;
+	font-size: 6em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-style: italic;
+	color: white;
+	text-shadow: 0.06em 0.37em 0.5em #000;
+}
+/*fin header*/
+
+.usuario {
+	margin-top: 8em;
+}
+
+/*inicio nosotros*/
+.nosotros {
+	margin-top: 4em;
+}
+
+.nosotros p {
+	font-size: 1.2em;
+    margin-bottom: 2em;
+}
+
+.nosotros .title {
+	width: 70%;
+	font-size: 2.4em;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-bottom: 1em;
+}
+
+.title {
+    display: none;
+}
+
+.subtitle {
+ 
+	font-size: 2em;
+	z-index: 2;
+	text-transform: uppercase;
+}
+
+.subtitle span {
+	color: #55E6C1;
+	background-color: white;
+	padding: 0.1em 0em 0.1em 0.1em;
+	z-index: 99;
+	position: relative;
+}
+
+.subtitle::after {
+	content: "";
+	display: inline-block;
+	height: 0.1em;
+	width: 100%;
+	background:#383838;
+	position: relative;
+	top: -1.5em;
+	z-index: 1;
+}
+
+.title2 {
+    color: white;
+}
+/* fin nosotros*/
+.custom_productos {
+	text-align: center;
+	margin-top: 5em;
+}
+
+/* inicio footer */
+footer {
+	background: #fdcb6e;
+	height: auto;
+	width: 100vw;
+	padding-top: 40px;
+	color: white;
+}
+
+.custom_footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.custom_footer h3 {
+	font-size: 2.5em;
+	text-transform: capitalize;
+	line-height: 1em;
+}
+
+.custom_footer p {
+	max-width: 31em;
+	margin: 0.6em auto;
+	line-height: 1.75em;
+	font-size: 1em;
+}
+
+.custom_social {
+	list-style: none;
+	align-items: center;
+	margin: 1rem 0 3rem 0;
+}
+
+.custom_social li {
+	margin: 0 0.6em;
+}
+
+.custom_social a {
+	text-decoration: none;
+	color: white;
+}
+
+.custom_bottom {
+	background: #e8b659;
+	width: 100vw;
+	padding: 1.25em 0;
+	text-align: center;
+	color: white;
+}
+
+.custom_bottom {
+	font-size: 0.8em;
+	word-spacing: 0.1em;
+	text-transform: capitalize;
+}
+/* inicio footer */
+
+/*inicio galeria*/
+.img_contenido {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.imagen {
+	width: 25%;
+	position: relative;
+	overflow: hidden;
+	margin: 1em;
+}
+
+.imagen img {
+	width: 100%;
+	display: flex;
+	transition: 0.4s;
+}
+
+.ocultando {
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: white;
+	text-align: center;
+	padding-top: 40%;
+	display: none;
+}
+
+.zoom {
+	transform: scale(1.2);
+	transition: 0.4s;
+}
+
+.popUp {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(1, 1, 1, 0.8);
+	display: block;
+	top: 0;
+	left: 0;
+	margin-top: 4.9em;
+}
+
+.popUp_img {
+	width: 70%;
+	max-width: 62.5em;
+	display: block;
+	position: relative;
+	margin: 0.5em auto;
+	border: 0.5em solid white;
+}
+
+.popUp_img img {
+	width: 100%;
+	display: block;
+	height: auto;
+	position: relative;
+}
+
+.cerrar {
+	width: 3.1em;
+	height: 3.1em;
+	background: salmon;
+	color: white;
+	position: absolute;
+	top: 0;
+	right: -3.1em;
+	text-align: center;
+	line-height: 3.1em;
+	cursor: pointer;
+}
+/*fin galeria*/
+

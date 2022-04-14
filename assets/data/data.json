@@ -1,0 +1,74 @@
+[
+    {
+      "precio": 890,
+      "id": 1,
+      "title": "Mix frutos tropicales 1kg",
+      "thumbnailUrl": "https://cdn.shopify.com/s/files/1/0050/1474/9297/products/WhatsAppImage2020-06-09at12.20.18_700x.jpg?v=1591716162"
+    },
+    {
+      "precio": 900,
+      "id": 2,
+      "title": "Mix secos 1kg",
+      "thumbnailUrl": "https://d3ugyf2ht6aenh.cloudfront.net/stores/419/553/products/diseno-sin-titulo-281-b56ef918ee5877954b15809349254905-1024-1024.png"
+    },
+    {
+      "precio": 1000,
+      "id": 3,
+      "title": "Mix Europeo 1kg",
+      "thumbnailUrl": "https://cdn.shopify.com/s/files/1/0050/1474/9297/products/WhatsAppImage2020-06-09at12.18.57_700x.jpg?v=1591719267"
+    },
+    {
+      "precio": 1600,
+      "id": 4,
+      "title": "Nueces 1kg",
+      "thumbnailUrl": "https://frutosare.com.ar/wp-content/uploads/2018/05/NUECES-PELADAS.jpg"
+    },
+    {
+      "precio": 280,
+      "id": 5,
+      "title": "Mantequilla de maní Le-fit",
+      "thumbnailUrl": "https://d3ugyf2ht6aenh.cloudfront.net/stores/366/822/products/le-fit-coco-ok1-6f0d46c1b9acc6e56915869682255435-1024-1024.jpg"
+    },
+    {
+      "precio": 350,
+      "id": 6,
+      "title": "Mix clásico 400gr",
+      "thumbnailUrl": "http://d3ugyf2ht6aenh.cloudfront.net/stores/515/128/products/mix-frutos-secos-clasico-ziploc-400-beepure-guru-market1-79117265f51a84a01115648744029099-640-0.jpg"
+    },
+    {
+      "precio": 600,
+      "id": 7,
+      "title": "Aceite de Argan",
+      "thumbnailUrl": "https://apnbeautycare.com/35-large_default/aceite-de-argan.jpg"
+    },
+    {
+      "precio": 890,
+      "id": 8,
+      "title": "Crema de Aloe",
+      "thumbnailUrl": "https://apnbeautycare.com/38-large_default/crema-con-aloe-vera-de-la-cruz-4-oz-114-g.jpg"
+    },
+    {
+      "precio": 380,
+      "id": 9,
+      "title": "Aceite de oliva",
+      "thumbnailUrl": "https://newgarden.com.ar/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/a/c/aceite-de-oliva-biolive-organico.jpg"
+    },
+    {
+      "precio": 500,
+      "id": 12,
+      "title": "Manteca Clarificada",
+      "thumbnailUrl": "https://estilorganico.com/1384-full_default/manteca-clarificada-ghee-clasica-x300g-cows-pure.jpg"
+    },
+    {
+      "precio": 420,
+      "id": 3,
+      "title": "Miel los dos zanganos 500ml",
+      "thumbnailUrl": "https://santeriaindiecito.com.ar/wp-content/uploads/2021/01/miel-pote-medio.jpg"
+    },
+    {
+      "precio": 600,
+      "id": 4,
+      "title": "Vinagre de manzana y miel",
+      "thumbnailUrl": "https://i.linio.com/p/47039273d05db7d8a346b182218d5886-product.jpg"
+    }
+]

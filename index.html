@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Natural Diet</title>
+  <link rel="icon" href="assets/img/logo.png">
+  <!--bootstrap local-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  
+</head>
+<body>
+  <!--nav-->
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom_navbar">
+          <a href="index.html" class="nav-bar-brand"><img class="custom_logo" src="assets/img/logo.png" alt="Logo dietetica"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-lg-end justify-content-xl-end" id="navbarNav">
+            <ul class="navbar-nav custom_menu">
+              <li class="nav-item active"><a href="index.html" class="nav-link">INICIO</a></li>
+              <li class="nav-item active"><a href="views/galeria.html" class="nav-link">GALERIA</a></li>		
+              </li>		
+            </ul>
+          </div>	
+        </nav>
+      </div>	
+    </div>
+
+    <!--titulo-->
+    <div class="inicio_header">
+      <div class="fondo" id="fondo">
+        <h1 class="titulo">Natural Diet</h1>
+      </div>
+    </div>
+    <!--fin titulo-->
+ </header>
+  <!--nav end-->
+
+  <!--usuario-->
+  <div class="container">
+    <form>
+      <label for="nombre">Usuario:</label>
+      <h2 id="userName"></h2>
+      <input type="text" id="name"/>
+      <label for="password" id="passwordLabel">Password:</label>
+      <input type="text" id="password"/>
+      <input class="btn btn-light" type="button" id="saveData" value="Enviar"/>
+      <p id="datos"></p>
+    </form>
+  </div>
+  <!--fin usuario-->
+
+  <!--nosotros-->
+  <main class="container">
+    <div class="row nosotros justify-content-center">
+      <div class="col-12 text-center">
+        <h3 class="subtitle"><span>¿Quiénes Somos?<span></h3>
+        <h3 class="title">Encargados de distribuir los mejores productos y precios</h3>
+        <p class="title2">Te llevamos los mejores productos hasta tu casa</p>
+        <h3>¡A que no puedes comprar solo una vez!</h3>
+      </div>
+    </div>
+  </main>
+  <!--fin nosotros-->
+  
+  <!--carrito-->
+  <div class="container">
+    <hr>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Item</th>
+          <th scope="col">Cantidad</th>
+          <th scope="col">Acción</th>
+          <th scope="col">Total</th>
+        </tr>
+      </thead>
+      <tbody id="items"></tbody>
+      <tfoot>
+        <tr id="footer">
+          <th scope="row" colspan="5">Su Carrito esta vacío</th>
+        </tr>
+      </tfoot>
+    </table>
+    <div class="row" id="cards"></div>
+  </div>
+
+  <template id="template-footer">
+    <th scope="row" colspan="2">Total productos</th>
+    <td>10</td>
+    <td>
+        <button class="btn btn-light btn-sm" id="vaciar-cart">Vaciar carrito</button>
+    </td>
+    <td class="font-weight-bold">$ <span>5000</span></td>
+  </template>
+
+  <template id="template-cart">
+    <tr>
+      <th scope="row">id</th>
+      <td>Café</td>
+      <td>1</td>
+      <td>
+          <button class="btn btn-success btn-sm">+</button>
+          <button class="btn btn-light btn-sm">-</button>
+      </td>
+      <td>$ <span>500</span></td>
+    </tr>
+  </template>
+
+  <template id="template-card">
+    <div class="col-12 mb-2 col-md-3">
+      <div class="card text-center">
+        <img src="" alt="" class="card-img-top">
+        <div class="card-body">
+          <h5>Titulo</h5>
+          <p>precio</p>
+          <button class="btn btn-dark">Añadir al carrito</button>
+        </div>
+      </div>
+    </div>
+  </template>
+  <!--final carrito-->
+
+  <div class="container custom_productos">
+    <h2>Nuestros próximos productos</h2>
+    <div class="mb-5 mt-2">
+      <span class="prox_productos"></span>
+    </div>
+  </div>
+
+  <!--inicio footer-->
+  <footer>
+    <div class="container custom_footer">
+      <div class="row col"></div>
+        <h3>Natural Diet</h3>
+        <p>¡Síguenos en nuestras redes!</p>
+        <div class="row glyphicon glyphicon-ok">
+          <ul class="list-inline custom_social"></ul>
+            <li class="list-inline-item"><i class="fa fa-facebook"></i></li>
+            <li class="list-inline-item"><i class="fa fa-twitter"></i></li>
+            <li class="list-inline-item"><i class="fa fa-instagram"></i></li>
+            <li class="list-inline-item"><i class="fa fa-youtube"></i></li>
+        </div>
+      </div>
+    </div>
+    <div class="custom_bottom">
+      <p>copyrigth &copy;2021 NaruralDiet</p>
+    </div>
+  </footer>
+  
+  <!--final footer-->
+
+  <!--enlaces-->
+  <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/23d54f4b8b.js" crossorigin="anonymous"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/user.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/info.js"></script>
+
+</body>
+</html>
